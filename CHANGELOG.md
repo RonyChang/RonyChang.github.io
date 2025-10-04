@@ -22,6 +22,9 @@ git a
 - Páginas sobre mí y Skills terminadas.
 - Cambios en datos y skills.
 
+## [v1.0.2]
+### Changed
+- Cambios en la página de Resume, todo actualizado y terminado.
 
 ---
 
