@@ -3,16 +3,16 @@ Todos los cambios notables de este proyecto se documentarán aquí.
 
 ## [Unreleased]
 ### Added
-- Plantilla básica de portfolio.
+- Plantilla de CV
 
-## [1.0.0] - 2025-10-04
+## [1.0.1] - 2025-10-04
 ### Added
-- Nuevo Hero con **terminal-card** y chips de stack.
+- Cuadro de código en la primera página con descripciones.
 
 ### Changed
-- Página principal terminada.
+- Primera página del portfolio terminada.
 - `assets/css/main.css`: estilos del Hero actualizados.
-- `index.html`: reemplazo del bloque derecho del Hero (antes una foto vacía).
+- `index.html`: reemplazo del bloque derecho del Hero (antes una foto).
 
 ### Removed
 - Estructuras del `profile-container` del Hero antiguo (ya no se usan).
@@ -20,4 +20,3 @@ Todos los cambios notables de este proyecto se documentarán aquí.
 ---
 
 > Notas:
-

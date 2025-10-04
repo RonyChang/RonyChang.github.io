@@ -2548,3 +2548,47 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* ===== Hero Right: Terminal Card ===== */
+.terminal-card{
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  backdrop-filter: blur(6px);
+}
+.terminal-top{
+  display:flex; align-items:center; gap:8px;
+  padding:10px 14px; background: rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.terminal-top .dot{
+  width:10px;height:10px;border-radius:50%;
+  display:inline-block; opacity:.9;
+}
+.terminal-top .red{background:#ff5f56}
+.terminal-top .yellow{background:#ffbd2e}
+.terminal-top .green{background:#27c93f}
+.terminal-top .term-title{
+  margin-left:auto; font-size:.85rem; opacity:.8;
+}
+.terminal-body{
+  padding:16px 18px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size:.95rem; line-height:1.5; color:#cfd3dc;
+  max-height: 320px; overflow:auto;
+}
+.terminal-body pre{ margin:0; white-space:pre-wrap; }
+.stack-chips{
+  margin-top:16px; display:flex; flex-wrap:wrap; gap:8px;
+}
+.stack-chips span{
+  font-size:.8rem; padding:6px 10px; border-radius:999px;
+  background: rgba(255,255,255,0.06);
+  border:1px solid rgba(255,255,255,0.08);
+  color:#e7ebf3;
+}
+@media (max-width: 991.98px){
+  .terminal-body{ max-height:none; }
+}
