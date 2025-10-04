@@ -20,4 +20,3 @@ Todos los cambios notables de este proyecto se documentarán aquí.
 ---
 
 > Notas:
-
