@@ -26,6 +26,12 @@ git a
 ### Changed
 - Cambios en la página de Resume, todo actualizado y terminado.
 
+## [v1.1.0]
+### Changed
+- Todas las páginas actuales actualizadas y probadas.
+
+### Removed
+- Se eliminaron todas las secciones en desuso.
 ---
 
 > Notas:
